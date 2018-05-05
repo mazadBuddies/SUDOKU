@@ -33,8 +33,8 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="main.cpp" />
-		<Unit filename="sudokuGUI.cpp" />
 		<Unit filename="sudokuGUI.h" />
+		<Unit filename="sudokuMat.cpp" />
 		<Unit filename="template.cpp" />
 		<Extensions>
 			<code_completion />

@@ -10,6 +10,7 @@ int counter;
 bool findFirstUnchekedLocation(int grid[N][N], int &row, int &col);// this function first position not checked work by referance
 bool isSafe(int grid[N][N], int row, int col, int num); // this function group your logic function like inRow , in column  ...... and return true if is true
 void printGrid(int grid[N][N]);// print grid 3adeeee
+
 bool SolveSudoku(int grid[N][N]){
     int row, col;// this in first call 0 0 "by default"
 
@@ -18,16 +19,13 @@ bool SolveSudoku(int grid[N][N]){
     for (int i = 1; i <= 9; i++){
         if (isSafe(grid, row, col, i)){
             grid[row][col] = i;
-            printBox(grid);
-            system("PAUSE");
-            system("cls");
+            /*system("cls");
+                printBox(grid);
+                getchar();
+*/
             if (SolveSudoku(grid)){
-                    system("color 0a");
                 return true;
             }//end of if (SolveSudoku(grid))
-            else{
-                system("color 02");
-            }
             grid[row][col] = UNCHECKED;
         }// end of if (isSafe(grid, row, col, i))
     }//end of for
@@ -82,23 +80,23 @@ void printGrid(int grid[N][N]){
 }
 
 int main(){
-    system("color 03");
+    system("color 0a");
     int grid[N][N] =                 {
         {0,0,0,0,0,5,0,2,0},
-        {0,8,0,0,0,0,0,0,0},
+        {0,8,0,0,0,0,0,1,0},
         {0,0,0,0,0,1,0,0,0},
         {0,0,0,8,0,0,5,9,0},
-        {0,0,0,0,0,0,0,4,0},
+        {0,0,0,0,0,0,0,0,0},
         {0,9,0,0,0,0,0,0,0},
         {0,0,0,0,0,8,0,0,0},
         {0,1,0,0,0,0,3,0,0},
-        {0,0,0,0,3,0,6,0,0}
+        {0,0,0,0,3,0,6,0,1}
     };
     //printBox(grid);
-    if (SolveSudoku(grid) == true)
+    if (SolveSudoku(grid))
         {
             printBox(grid);
-            printGrid(grid);
+            //printGrid(grid);
         }
     else
         printf("No solution exists");

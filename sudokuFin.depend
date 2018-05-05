@@ -3,17 +3,25 @@
 	<bits/stdc++.h>
 	"sudokuGUI.cpp"
 
+1524173674 .cpp"
+
 1524179977 d:\sudokucpp\sudokugui.cpp
 	<bits/stdc++.h>
 	"template.cpp"
 
+1524179977 cpp"
+
 1524173733 d:\sudokucpp\template.cpp
 	<bits/stdc++.h>
 
-1524180862 source:d:\sudokufin\main.cpp
+1524175755 ++.h>
+
+1524229354 source:d:\sudokufin\main.cpp
 	<bits/stdc++.h>
 	"template.cpp"
 	"sudokuGUI.h"
+
+1524181011 .h"
 
 1524175204 d:\sudokufin\sudokugui.cpp
 	"template.cpp"
@@ -30,4 +38,37 @@
 	"sudokuGUI.h"
 
 1524180149 d:\sudokufin\sudokugui.h
+
+1524181011 source:/media/bodey/Boodey/S/sudokuFin/sudokuGUI.cpp
+	"template.cpp"
+	"sudokuGUI.h"
+
+1524175755 /media/bodey/Boodey/S/sudokuFin/template.cpp
+	<bits/stdc++.h>
+
+1524180149 /media/bodey/Boodey/S/sudokuFin/sudokuGUI.h
+
+1524175755 source:/media/bodey/Boodey/S/sudokuFin/template.cpp
+	<bits/stdc++.h>
+
+1524181011 source:d:\s\sudokufin\sudokugui.cpp
+	"template.cpp"
+	"sudokuGUI.h"
+
+1524175755 d:\s\sudokufin\template.cpp
+	<bits/stdc++.h>
+
+1524180149 d:\s\sudokufin\sudokugui.h
+
+1524175755 source:d:\s\sudokufin\template.cpp
+	<bits/stdc++.h>
+
+1525467065 source:d:\s\sudokufin\main.cpp
+	<bits/stdc++.h>
+	"template.cpp"
+	"sudokuGUI.h"
+
+1524181011 source:d:\s\sudokufin\sudokumat.cpp
+	"template.cpp"
+	"sudokuGUI.h"
 
